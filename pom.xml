@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
+			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -78,9 +78,17 @@
 	<build>
 		<finalName>gallery</finalName>
 		<plugins>
-			<!-- <plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
-				<configuration> <source>${java.version}</source> <target>${java.version}</target> 
-				</configuration> </plugin> -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_121\bin\javac.exe</executable>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
