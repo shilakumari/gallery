@@ -1,0 +1,13 @@
+Milestones in project development
+1. Create maven web project in eclipse
+2. Attach it to git
+3. Update pom with dependencies
+	JUnit
+	Servlet
+ 	Spring
+	Commons-logging
+	Hibernate
+	MySql connector
+4. Sample Spring Hibernate Program
+5. 
+
