@@ -10,10 +10,21 @@
 	<welcome-file-list>
 		<welcome-file>/WEB-INF/jsp/index.jsp</welcome-file>
 	</welcome-file-list>
+<!-- 	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/HelloWeb-servlet.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+		<load-on-startup>1</load-on-startup>
+	</listener>
+https://stackoverflow.com/questions/7704286/java-lang-illegalstateexception-no-webapplicationcontext-found-no-contextloade
+ -->
 	<servlet>
 		<servlet-name>spring-mvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<load-on-startup>1</load-on-startup>
+		<load-on-startup>2</load-on-startup>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>spring-mvc</servlet-name>

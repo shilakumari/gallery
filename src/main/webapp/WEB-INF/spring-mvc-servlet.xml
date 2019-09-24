@@ -31,5 +31,4 @@
 
 	<import resource="mySqlHibernate.xml" />
 
-
 </beans>

@@ -2,12 +2,22 @@ Milestones in project development
 1. Create maven web project in eclipse
 2. Attach it to git
 3. Update pom with dependencies
-	JUnit
+	
 	Servlet
  	Spring
-	Commons-logging
+	
 	Hibernate
 	MySql connector
-4. Sample Spring Hibernate Program
-5. 
+	JUnit
+4. Sample Spring MVC Hibernate Program
+5. CSS, JS & JQuery
+6. Exception Handling
+7.
+8.
+9.
+10.
+11. I18N
+	Locale Specific Dates
+12. Theme
+
 
