@@ -1,4 +1,4 @@
-package com.gallery;
+package com.gallery.buyer.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
