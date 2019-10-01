@@ -1,6 +1,9 @@
 package com.gallery.buyer.model;
 
 import javax.persistence.Entity;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -8,9 +11,9 @@ import javax.persistence.Table;
 @Table(name = "buyer")
 public class Buyer {
 	@Id
-	private int id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)	private int id;
 	private String mobileNumber;
-	private String pincode;
+	private String pinCode;
 
 	public int getId() {
 		return id;
@@ -28,16 +31,16 @@ public class Buyer {
 		this.mobileNumber = mobileNumber;
 	}
 
-	public String getPincode() {
-		return pincode;
+	public String getPinCode() {
+		return pinCode;
 	}
 
 	@Override
 	public String toString() {
-		return "Buyer [id=" + id + ", mobileNumber=" + mobileNumber + ", pincode=" + pincode + "]";
+		return "Buyer [id=" + id + ", mobileNumber=" + mobileNumber + ", pincode=" + pinCode + "]";
 	}
 
-	public void setPincode(String pincode) {
-		this.pincode = pincode;
+	public void setPinCode(String pincode) {
+		this.pinCode = pincode;
 	}
 }

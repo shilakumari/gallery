@@ -20,4 +20,14 @@ Milestones in project development
 	Locale Specific Dates
 12. Theme
 
+Project
+MobileNo->PinCOde->ShopList->ItemList->add on cart->Buy Now->Address->Otp->Order Placed
 
+
+To do
+	Logger in each class
+	There is no shop near in your pincode area
+	MobileNo->PinCOde->ShopList->ItemList
+	
+	
+	

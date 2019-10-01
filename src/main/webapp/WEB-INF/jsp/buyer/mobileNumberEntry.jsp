@@ -8,11 +8,9 @@
 </head>
 <body>
 <h3>Mobile Number</h3>
-	<form action="//pinCodeEntry" method="post">
+	<form action="/gallery/postMobileNumber" method="post">
 		Enter mobile number: <input type="text" placeholder="Mobile Number" name="mobileNumber"> 
-		<br><input type="submit" value="submitMobileno">
+		<br><input type="submit" value="Next">
 	</form>
-	
-	<h1>${mobile}</h1>
 </body>
 </html>

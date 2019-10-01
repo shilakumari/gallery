@@ -8,10 +8,10 @@
 </head>
 <body>
 <h3>Pin code</h3>
-	<form action="welcome.jsp" method="post">
-		Enter pincode number: <input type="text" placeholder="pincode" name="pincode"> 
-		<input type="hidden" placeholder="pincode" name="mob num" value="${mobileNumber}"> 
-		<br><input type="submit" value="submitPincode">
+	<form action="/gallery/postPinCode" method="post">
+		Enter pincode number: <input type="text" placeholder="Pin Code" name="pinCode"> 
+		<input type="hidden" name="mobileNumber" value="${mobileNumber}"> 
+		<br><input type="submit" value="Submit">
 	</form>
 </body>
 </html>
